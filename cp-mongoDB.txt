@@ -1,0 +1,3 @@
+db.contactlist.findOne({'_id':ObjectId("615a3146ff5366bff6d1a0e5")})
+db.contactlist.find({'age':{$gt:18}})
+db.contactlist.find({$and:[{'age':{$gt:18}},{'Lastname':{$regex:'ah'}}]})
