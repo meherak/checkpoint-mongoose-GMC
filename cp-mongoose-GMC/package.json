@@ -1,0 +1,29 @@
+{
+  "name": "cp-mongoose-gmc",
+  "version": "1.0.0",
+  "description": "checkpoint mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meherak/checkpoint-mongoose-GMC.git"
+  },
+  "author": "meher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meherak/checkpoint-mongoose-GMC/issues"
+  },
+  "homepage": "https://github.com/meherak/checkpoint-mongoose-GMC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "yarn": "^1.22.15"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
